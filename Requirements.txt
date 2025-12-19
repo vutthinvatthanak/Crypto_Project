@@ -1,0 +1,23 @@
+requirements.txt
+cryptography==41.0.7
+
+Python Version
+Python 3.13.9
+
+How to Run the Program
+️Open terminal in the project directory
+cd Secure-File-Encryption-Tool
+
+️Install required library
+pip install -r requirements.txt
+
+️Run the application
+python main.py
+
+Notes
+
+All other libraries used (os, sys, re, getpass, base64) are built into Python 3.13.9
+
+No additional setup is required
+
+Make sure salt.bin and password_check.meta remain in the same directory after encryption
